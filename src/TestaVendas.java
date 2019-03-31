@@ -19,16 +19,16 @@ public class TestaVendas {
         System.out.println("Preco:"+v1.preco);
         
          Vendas v2 = new Vendas();
-        v2.produto = "Iphone 8";
-        v2.preco = 4000;
+        v2.produto = "ZEN FONE 4";
+        v2.preco = 2000;
         v2.vendedor = "Hudson Cleuber";
         
         System.out.println("Produto:"+v2.produto);
         System.out.println("Preco:"+v2.preco);
         
          Vendas v3 = new Vendas();
-        v3.produto = "Xbox one";
-        v3.preco = 2000;
+        v3.produto = "PLAYSATION 3";
+        v3.preco = 1999;
         v3.vendedor = "David Goncalves";
         
         System.out.println("Produto:"+v3.produto);

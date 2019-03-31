@@ -13,28 +13,28 @@ public class TestaAluno {
     public static void main(String[] args){
         
         Aluno a1 = new Aluno();
-        a1.nome = "John Herbert";
+        a1.nome = "Lucas Cardoso";
         a1.curso = "Sistemas de Informacao";
-        a1.materia = "Banco de dados";
-        a1.nota = 65;
+        a1.materia = "Redes II";
+        a1.nota = 67;
         
         System.out.println("Aluno:"+ a1.nome);
         System.out.println("Curso:"+ a1.curso);
         
         Aluno a2 = new Aluno();
-        a2.nome = "Raissa Ferreira";
-        a2.curso = "Quimica";
-        a2.materia = "Organica 3";
-        a2.nota = 98;
+        a2.nome = "Milena Cardoso";
+        a2.curso = "Administração";
+        a2.materia = "Economia";
+        a2.nota = 79;
         
         System.out.println("Aluno:"+ a2.nome);
         System.out.println("Curso:"+ a2.curso);
         
         Aluno a3 = new Aluno();
-        a3.nome = "Carlos Max";
-        a3.curso = "Administração";
-        a3.materia = "Estatistica";
-        a3.nota = 70;
+        a3.nome = "Carlos Henrrique";
+        a3.curso = "Matematica";
+        a3.materia = "calculo numerico";
+        a3.nota = 80;
         
         System.out.println("Aluno:"+ a3.nome);
         System.out.println("Curso:"+ a3.curso);
