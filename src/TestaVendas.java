@@ -6,12 +6,12 @@
 
 /**
  *
- * @author JohnB
+ * @author Hudson
  */
 public class TestaVendas {
     public static void main(String[] args){
          Vendas v1 = new Vendas();
-        v1.produto = "notebook acer";
+        v1.produto = "Notebook Acer";
         v1.preco = 2000;
         v1.vendedor = "Lucas Cardoso";
         
@@ -19,7 +19,7 @@ public class TestaVendas {
         System.out.println("Preco:"+v1.preco);
         
          Vendas v2 = new Vendas();
-        v2.produto = "ZEN FONE 4";
+        v2.produto = "Zen Fone MAX";
         v2.preco = 2000;
         v2.vendedor = "Hudson Cleuber";
         
@@ -27,9 +27,9 @@ public class TestaVendas {
         System.out.println("Preco:"+v2.preco);
         
          Vendas v3 = new Vendas();
-        v3.produto = "PLAYSATION 3";
+        v3.produto = "Xbox One X";
         v3.preco = 1999;
-        v3.vendedor = "David Goncalves";
+        v3.vendedor = "Igor Gabriel";
         
         System.out.println("Produto:"+v3.produto);
         System.out.println("Preco:"+v3.preco);

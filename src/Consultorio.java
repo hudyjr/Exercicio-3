@@ -6,7 +6,7 @@
 
 /**
  *
- * @author JohnB
+ * @author Hudson
  */
 public class Consultorio {
     
